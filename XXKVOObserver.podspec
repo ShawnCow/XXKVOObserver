@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 s.name             = "XXKVOObserver"
-s.version          = "0.0.1"
+s.version          = "0.0.2"
 s.summary          = "kvo dahuang"
 s.description      = <<-DESC
 It is a marquee view used on iOS, which implement by Objective-C.
@@ -10,7 +10,7 @@ s.homepage         = "https://github.com/ShawnCow/XXKVOObserver"
 # s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
 s.license          = 'MIT'
 s.author             = { "大黄" => "rockhxy@gmail.com" }
-s.source       = { :git => "https://github.com/ShawnCow/XXKVOObserver.git", :tag => "0.0.1" }
+s.source       = { :git => "https://github.com/ShawnCow/XXKVOObserver.git", :tag => "0.0.2" }
 # s.social_media_url = 'https://twitter.com/NAME'
 
 s.platform     = :ios, '4.3'
