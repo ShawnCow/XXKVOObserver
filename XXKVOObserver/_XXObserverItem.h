@@ -16,7 +16,7 @@ typedef void (^_XXObserverItemCompletion)(id observer, NSString * keyPath, NSDic
 
 - (instancetype)initWithObserver:(id)observer;
 
-@property (nonatomic, readonly, assign) id observer;//千万别改 assign 的内存引用类型,因为作为 observer 的属性,在调用 dealloc 的时候会先将 observer set 为 nil 所以 不能用 weak 只能用 assign 这样在 dealloc 的时候才能 remove 所有kvo
+@property (nonatomic, readonly, unsafe_unretained) id observer;//千万别改 assign 的内存引用类型,因为作为 observer 的属性,在调用 dealloc 的时候会先将 observer set 为 nil 所以 不能用 weak 只能用 assign 这样在 dealloc 的时候才能 remove 所有kvo
 
 - (XXObserver *)addObserverWithKeyPath:(NSString *)keyPath completion:(_XXObserverItemCompletion)completion;
 

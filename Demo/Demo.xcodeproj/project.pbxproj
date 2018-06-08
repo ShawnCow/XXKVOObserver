@@ -30,8 +30,8 @@
 		29AFC4921EC06AAF0032D799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29AFC4991EC06ACE0032D799 /* NSObject+XXObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+XXObserver.h"; sourceTree = "<group>"; };
 		29AFC49A1EC06ACE0032D799 /* NSObject+XXObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XXObserver.m"; sourceTree = "<group>"; };
-		29AFC49C1EC06ACE0032D799 /* _XXObserverItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XXObserverItem.h; sourceTree = "<group>"; };
-		29AFC49D1EC06ACE0032D799 /* _XXObserverItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _XXObserverItem.m; sourceTree = "<group>"; };
+		29AFC49C1EC06ACE0032D799 /* _XXObserverItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _XXObserverItem.h; path = ../XXKVOObserver/_XXObserverItem.h; sourceTree = "<group>"; };
+		29AFC49D1EC06ACE0032D799 /* _XXObserverItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _XXObserverItem.m; path = ../XXKVOObserver/_XXObserverItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -338,6 +338,7 @@
 				29AFC4971EC06AAF0032D799 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
